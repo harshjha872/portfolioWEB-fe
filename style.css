@@ -1,0 +1,376 @@
+*{
+    box-sizing: border-box;
+    margin: 0 ;
+    padding: 0;
+    color: white;
+}
+body{
+    background: #222;
+    
+}
+.header{
+   position: relative;
+   height: 90px;
+   
+}
+
+ul{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 83px;
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: bold;
+}
+ul li{
+    text-transform: uppercase;
+    padding: 20px;
+    list-style-type: none;
+    
+    text-decoration: none;
+    
+}
+ul li a{
+    position: relative;
+    text-decoration: none;
+    
+    font-size: 17px;
+    
+}
+.img{
+    background: url('1.jpg') no-repeat center center/cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0.5;
+    width: 100%;
+    height: 661px;
+    /* -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    /* filter: grayscale(100%); */ 
+}
+.container{
+    position: relative;
+    
+}
+.heading{
+    margin-top: 39px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+    
+    font-size: 50px;
+    margin-bottom: 132px;
+
+}
+.name{
+    font-size: 80px;
+    font-weight: bold;
+}
+#hello{
+    font-family: 'Nunito', sans-serif;
+}
+#rezume{
+font-size: 23px;
+font-family: 'Advent Pro', sans-serif;
+padding: 8px;
+}
+.head2{
+    padding-top: 116px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 30px;
+    font-family: 'Nunito', sans-serif;
+}
+.head2-1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    margin-left: 7px;
+    font-weight: bold;
+}
+ul li a:hover{
+    color: rgb(204, 93, 121);
+}
+.boxcontainer{
+    display: flex;
+    flex-direction: row;
+    padding: 100px;
+    position: relative;
+    font-weight: bold;
+    font-family: 'Nunito', sans-serif;
+    
+    }
+.box1{
+    position: relative;
+    width: 100%;
+    height: 400px;
+   
+    margin-right: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box2{
+    position: relative;
+    
+    width: 100%;
+    height: 400px;
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.head3{
+    padding: 10px;
+    padding-left: 12px;
+    font-size: 25px;
+}
+.head4{
+    padding: 10px;
+    padding-left: 12px;
+    font-size: 25px;
+}
+.portp{
+    /* padding: 32px; */
+    /* font-family: monospace; */
+    font-size: 20px;
+    overflow: hidden;
+    padding-left: 10px;
+    font-family: 'Nunito', sans-serif;
+}
+.cardimg1{
+    background: url('3.jpg') no-repeat center center/cover;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -2;
+    opacity: 0.8;
+    width: 100%;
+    height: 400px;
+}
+.cardimg2{
+    background: url('2.jpg') no-repeat center center/cover;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -2;
+    opacity: 0.8;
+    width: 100%;
+    height: 400px;
+}
+.blackOP{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 125px;
+    /* text-align: center; */
+    background: rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    padding: 5px;
+}
+.aboutheadtop{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-family: 'Nunito', sans-serif;
+    padding-bottom: 116px;
+    height: 100px;
+   
+}
+.aboutsection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 0 96px;
+}
+.aboutimage{
+    background: url('1.jpg') no-repeat center center/cover;
+    width: 1984px; 
+    /* width: 50%; */
+    height: 400px;
+}
+.aboutpart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 58px;
+    /* width: 50%; */
+}
+.abouthead{
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+.aboutpara{
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+}
+.myworkhead{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-family: 'Nunito', sans-serif;
+    padding-bottom: 116px;
+    padding-top: 116px;
+    height: 100px;
+}
+.mywork{
+    width: 100%;
+    height: 535px;
+    background-color: rgb(46, 46, 46);
+    margin-bottom: 50px;   
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    
+}
+.part1{
+width: 50%;
+height: 500px;
+display: flex;
+flex-direction: column;
+padding: 30px;
+}
+.part2{
+    width: 50%;
+height: 500px;
+display: flex;
+flex-direction: column;
+padding: 30px;
+}
+.web1{
+ width: 100%;
+ height: 50%;
+ background-color: red;
+ padding: 5px;
+}
+.web2{
+background-color: purple;
+width: 100%;
+height: 50%;
+padding: 5px;
+}
+.inworkhead{
+    margin-bottom: 24px;
+}
+.vid1{
+    width: 100%;
+    height: 50%;
+    background-color: rgb(21, 243, 58);
+    padding: 5px;
+   }
+.vid2{
+   background-color: rgb(54, 56, 158);
+   width: 100%;
+   height: 50%;
+   padding: 5px;
+   }
+/* 
+SLIDER CSS CODE FROM GOOGLE
+
+
+* {box-sizing:border-box}
+
+
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+  height: 500px;
+}
+
+
+.mySlides {
+  display: none;
+}
+
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+} 
+
+ @-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}   */
