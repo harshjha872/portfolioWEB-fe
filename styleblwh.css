@@ -211,6 +211,43 @@ ul li a:hover{
     font-family: 'Nunito', sans-serif;
     font-size: 20px;
 }
-footer{
-    height: 150px;
-}
+
+
+.button {
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    color: #FFFFFF;
+    font-family: Arial;
+    font-size: 22px;
+    font-weight: 200;
+    padding: 10px;
+    text-shadow-color: ;
+    text-shadow-horizontal: 1;
+    text-shadow-vertical: 1;
+    text-shadow-blur: 20;
+    box-shadow-color: ;
+    box-shadow-horizontal: 1;
+    box-shadow-vertical: 1;
+    box-shadow-blur: 20;
+    box-shadow-spread: 0;
+    background-color: #A6E3E9;
+    border: solid #A6E3E9 0;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ .button:hover {
+    border: solid #71C9CE 1px;
+    background: #71C9CE;
+    background-image: -webkit-linear-gradient(top, #71C9CE, #71C9CE);
+    background-image: -moz-linear-gradient(top, #71C9CE, #71C9CE);
+    background-image: -ms-linear-gradient(top, #71C9CE, #71C9CE);
+    background-image: -o-linear-gradient(top, #71C9CE, #71C9CE);
+    background-image: -webkit-gradient(to bottom, #71C9CE, #71C9CE);
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    text-decoration: none;
+ }
